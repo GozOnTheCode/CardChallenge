@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(185, 75%, 39%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.img-1 {
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -20%;
+    width: 750px;
+}
+
+.img-2 {
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+.card {
+    position: relative;
+    height: 60vh;
+    width: 25%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+.img-top {
+    width: 100%;
+    z-index: -999;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile {
+    position:relative;
+    border-radius: 50%;
+    border: solid 8px #fff;
+    border-spacing: 0;
+    display: block;
+    margin: -15% auto 0;
+}
+
+.text-card {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.name span {
+    color: hsl(0, 0%, 59%);
+    margin-left: 2%;
+}
+
+.name {
+    color: hsl(229, 23%, 23%);
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.city {
+    color: hsl(0, 0%, 59%);
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+.separator {
+    margin-top: 8%;
+    height: 1px;
+    width: 100%;
+    background-color: hsl(0, 0%, 59%);
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -2%; */
+}
+
+.div-stats1 {
+    padding: 35px;
+}
+
+.h1-stats {
+    color: hsl(229, 23%, 23%);
+    font-family: Kumbh Sans;
+    font-size: 18px;
+}
+
+.p-stats {
+    color: hsl(0, 0%, 59%);
+    font-family: Kumbh Sans;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 640px) {
+    .card {
+        width: 75%;
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .card {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+    .div-stats1 {
+        padding: 20px;
+    }
+    .card {
+        height: 45vh;
+    }
+}
